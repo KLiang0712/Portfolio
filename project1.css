@@ -1,0 +1,89 @@
+body 
+{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #D4E6F1;
+/*  width: 100%;
+  position: fixed;
+  z-index: 1;*/
+}
+
+/*section#about {
+    position: relative;
+    top: 5vw;   
+}*/
+
+/*
+Recommended colors in hexadecimal: 
+#CCCCCC		#999999		#666666		#333333
+*/
+
+.topnav a 
+{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover 
+{
+  background-color: white;
+}
+
+/*
+.topnav a.active 
+{
+  background-color: white;
+}
+*/
+
+.topnav-right 
+{
+  float: right;
+  color: black; 
+}
+
+.square_circle 
+{ 
+	border-radius: 50%; 
+}
+
+span 
+{
+	color: #33CCCC;
+}
+
+/* Source: https://dev.to/rmion/four-ways-to-align-boxes-horizontally-each-in-under-three-lines-of-css-5goa */
+ul {
+  columns: 2;
+  text-align: center;
+}
+
+section#project {
+    margin: 60px auto;
+    width: 100%;
+}
+
+
+.card {
+	flex-direction: row;
+}
+
+#project img.card-img-top
+{
+	width: 30%; 
+} 
+
+#project .card-title {
+	font-weight: bold;
+}
+
+
