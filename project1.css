@@ -75,6 +75,8 @@ section#project {
 
 .card {
 	flex-direction: row;
+	 margin: 60px auto;
+    width: 80%;
 }
 
 #project img.card-img-top
